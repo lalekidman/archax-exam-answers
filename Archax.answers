@@ -1,0 +1,11 @@
+Answers
+  1. object type in Javascript is just a reference type or something like pointers in C++. its not really a variable, thats why comparing it would be always false, if user really want to compare it. I suggest to use `JSON.stringily` for the both object before comparing it.
+  2. to be honest, I am not really sure to the run time but based on my understanding, using "for await", its waiting the whole array of promises, while "Promise(Array).forEach" run it imediately and just call await function individually.
+  3. well, to be honest, I'm often using "Map", but for me "Map" has alot of helpful built-in functionalities like `size` to check the elements count in the map, `delete` to delete the specific property, `set` to create or update element, `has` to check if the property is existed in the map compare to just bare object.
+  4. not sure about this. but for me, I'll just update the package.json and install the new version of dependency.
+  5. no answer
+  6. no answer
+  7. answer-7.ts
+  8. answer-8.ts
+  9. answer-9.ts
+  10. answer-10.ts
